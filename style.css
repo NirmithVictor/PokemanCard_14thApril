@@ -1,0 +1,76 @@
+
+.card{
+    /*Margin Auto Will Center The Elemnet By Giving Equal MarginEach Side*/
+    margin: auto;
+    padding: 15px;
+    width:400px;
+    height: 728px;
+    border:3px solid red ;
+    /*To Curve The Borders Or Smoothen It Out*/
+    border-radius: 15px;
+    /*This Are The Fonts Imported From Google Fonts*/
+    font-family: 'Roboto Condensed',sans-serif;
+    background-image:url("fire.png");
+}
+h1{
+    /*To Give Color To Your Text*/
+    color: whitesmoke;
+    margin: 0 15px 0;
+    /*Social Distancing JK Lol It Is Gib Space 
+    Between The Border And Te Edge*/
+    padding: 5px 10px;
+    padding-left:20px;
+    border: 6px solid red;
+    border-radius: 5px;
+    
+}
+.image-div{
+    margin: 15px auto;
+    /*To Limit The Size Of The Box Containing The Image*/
+    width: 350px;
+    height: 350px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.image-div img{
+    padding:5px 5px 5px 5px;
+    /*To Adjust The Picture Size In The Box Sert For It In The Above*/
+    width:96%;
+    height: auto;
+}
+.info{
+    color: red;
+    margin: auto;
+    padding:10px;
+    border: 1px solid red;
+    border-radius: 15px;
+    background-color: black;
+    /*To Decrease The Opacity Of The Box*/
+    opacity: 0.9;
+}
+#description{
+    margin: 5px;
+    font-style: italic;
+    border-radius: 15px;
+    padding: 2px;
+    font-weight: bold;
+}
+#list-items{
+    /*To Remove The Dots In The Points*/
+    list-style: none;
+    padding-left: 1px;
+}
+#list-items span{
+    /*To Style The Items In The Box*/
+    font-weight:bold;
+    font-style: italic;
+}
+.words{
+    font-style: oblique;
+    font-weight: 800;
+}
+.indent{
+    padding-left:270px;
+    font-weight: bolder;
+    font-style: italic;
+}
